@@ -11,16 +11,13 @@ cd ..
 docker build -t my_django . 
 docker run -it -p8000:8000 -v "$(pwd)/app:/app" my_django /bin/bash
 django-admin startproject app
-cd ..
-django-admin startproject app
 cd app
 django-admin startproject app
+cd ..
 python app/manage.py runserver 0.0.0.0:8000
 http://localhost:8000/
 http://localhost:8000/admin
-cd ..
 python /app/app/manage.py migrate
-python app/app/manage.py runserver 0.0.0.0:8000
 python /app/app/manage.py createsuperuser
 press enter
 enter mona@mona.com
@@ -50,6 +47,12 @@ exit
 docker run -it -p8000:8000 --network my_network -v "$(pwd)/app:/app" my_django /bin/bash
 python /app/app/manage.py migrate
 python /app/app/manage.py runserver 0.0.0.0:8000
+ctrl+c
+python /app/app/manage.py createsuperuser
+press enter
+enter mona@mona.com
+enter pass
+enter y
+python /app/app/manage.py runserver 0.0.0.0:8000
 go to webrowser http://localhost:8000/
 go to webrowser http://localhost:8000/admin
-
