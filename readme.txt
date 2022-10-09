@@ -2,7 +2,7 @@ docker network create my_network
 docker network ls  
 cd dba
 docker build -t my_dba .
-docker run --name mydba --network my_network -p 8080:81 -d my_dba
+docker run --name mydba --network my_network -p 8081:80 -d my_dba
 cd ..
 cd db
 docker build -t my_db .
