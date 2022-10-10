@@ -25,7 +25,7 @@ RUN chmod u+rw ./home/$username/pyNotebook/*
 #pip instals all needed pacages for the python notebook to run
 RUN pip3 install -r ./home/$username/pyNotebook/requirements.txt
 
-RUN su $username
+USER ${username}
 WORKDIR /home/${username}/pyNotebook/
 
 #Expose the port before its used for better working 
