@@ -33,4 +33,4 @@ EXPOSE 8888
 
 #The su (short for substitute or switch user) utility allows you to run commands with another user's privileges, by default the root user.
 
-ENTRYPOINT ["jupyter", "notebook","./Applied_Assignment_2.ipynb", "--ip=0.0.0.0","--allow-root"]
+ENTRYPOINT ["jupyter", "notebook","./Applied_Assignment_2.ipynb", "--ip=0.0.0.0"]
