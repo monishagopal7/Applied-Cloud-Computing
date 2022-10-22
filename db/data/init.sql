@@ -1,0 +1,20 @@
+DROP DATABASE IF EXISTS MG_FOOD_MENU;
+CREATE DATABASE MG_FOOD_MENU;
+
+DROP TABLE IF EXISTS food_menu_items;
+CREATE TABLE food_menu_items(item_name VARCHAR(255), price INT);
+INSERT INTO food_menu_items(item_name, price) VALUES('Wagyu Beef', 232);
+INSERT INTO food_menu_items(item_name, price) VALUES('Big Texan Steak', 72);
+INSERT INTO food_menu_items(item_name, price) VALUES('New York Steak', 45);
+INSERT INTO food_menu_items(item_name, price) VALUES('Filet Mignon', 49);
+INSERT INTO food_menu_items(item_name, price) VALUES('Double-Cut Pork Chop', 39);
+INSERT INTO food_menu_items(item_name, price) VALUES('Pork Baby Back Ribs', 27);
+INSERT INTO food_menu_items(item_name, price) VALUES('Prime Rib', 38);
+INSERT INTO food_menu_items(item_name, price) VALUES('Salmon', 20);
+INSERT INTO food_menu_items(item_name, price) VALUES('Seasonal Vegetable Pasta', 24);
+INSERT INTO food_menu_items(item_name, price) VALUES('Rack of Lamb', 47);
+INSERT INTO food_menu_items(item_name, price) VALUES('Double Patty Burger', 24);
+INSERT INTO food_menu_items(item_name, price) VALUES('Warm Goat Cheese Salad', 13);
+INSERT INTO food_menu_items(item_name, price) VALUES('Caesar Salad', 12);
+INSERT INTO food_menu_items(item_name, price) VALUES('House Salad', 12);
+INSERT INTO food_menu_items(item_name, price) VALUES('Steak Tartare', 14);
