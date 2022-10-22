@@ -1,4 +1,4 @@
-Terminal Steps
+**Terminal Steps**
 
 docker compose up -build 
 #Need to run for the first time
