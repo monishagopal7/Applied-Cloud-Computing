@@ -6,7 +6,8 @@ docker compose up -build
 docker compose up
 
 
-In pgAdmin 
+pgAdmin adi URL as below
+
 http://localhost:5050/login?next=%2F
 
 username: admin@email.com
