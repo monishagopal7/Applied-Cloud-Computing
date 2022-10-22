@@ -25,3 +25,10 @@ name: db
 -username: postgres
 
 -password: postgres
+
+
+
+*to find the table created*
+
+in pdAdmin go to Server->db->DataBases->db->Schemas->Tables->run query(SELECT item_name, price
+	FROM public.food_menu_items;)
