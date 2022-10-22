@@ -15,7 +15,8 @@ username: admin@email.com
 password :admin
 
 
-To create the server details 
+
+**To create the server details **
 
 name: db
 
