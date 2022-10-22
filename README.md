@@ -32,3 +32,12 @@ name: db
 
 in pdAdmin go to Server->db->DataBases->db->Schemas->Tables->run query(SELECT item_name, price
 	FROM public.food_menu_items;)
+
+
+
+
+**Reference**
+
+https://www.youtube.com/watch?v=eKEzq59FhEw
+
+https://github.com/Chensokheng/psql-docker/blob/master/docker-compose.yml
