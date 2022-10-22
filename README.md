@@ -13,7 +13,9 @@ admin@email.com
 admin
 
 
-To create the server details name: db,
+To create the server details 
+
+name: db
 
 -username: postgres
 -password: postgres
