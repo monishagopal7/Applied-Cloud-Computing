@@ -16,7 +16,9 @@ password :admin
 
 
 
-**To create the server details **
+**To create the server inside pdAdmin**
+
+Click Add new server-> Under General ( hostname=db) ->Connection (hostname=db) (username=postgres) (Password=postgres)
 
 name: db
 
